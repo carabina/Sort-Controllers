@@ -12,6 +12,9 @@
 		2D28A03E1C52DC690056B27E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D28A03C1C52DC690056B27E /* Main.storyboard */; };
 		2D28A0401C52DC690056B27E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D28A03F1C52DC690056B27E /* Assets.xcassets */; };
 		2D28A0431C52DC690056B27E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D28A0411C52DC690056B27E /* LaunchScreen.storyboard */; };
+		2D28A04B1C52DFF50056B27E /* SKSortingControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28A04A1C52DFF50056B27E /* SKSortingControllers.swift */; };
+		2D28A04D1C52E0170056B27E /* SwiftDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28A04C1C52E0170056B27E /* SwiftDate.swift */; };
+		2D28A04F1C52E0310056B27E /* SKSortFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28A04E1C52E0310056B27E /* SKSortFilterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		2D28A03F1C52DC690056B27E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D28A0421C52DC690056B27E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D28A0441C52DC690056B27E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D28A04A1C52DFF50056B27E /* SKSortingControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSortingControllers.swift; sourceTree = "<group>"; };
+		2D28A04C1C52E0170056B27E /* SwiftDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftDate.swift; sourceTree = "<group>"; };
+		2D28A04E1C52E0310056B27E /* SKSortFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSortFilterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,11 @@
 		2D28A0371C52DC690056B27E /* Sort Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2D28A04A1C52DFF50056B27E /* SKSortingControllers.swift */,
+				2D28A04C1C52E0170056B27E /* SwiftDate.swift */,
 				2D28A0381C52DC690056B27E /* AppDelegate.swift */,
 				2D28A03A1C52DC690056B27E /* ViewController.swift */,
+				2D28A04E1C52E0310056B27E /* SKSortFilterViewController.swift */,
 				2D28A03C1C52DC690056B27E /* Main.storyboard */,
 				2D28A03F1C52DC690056B27E /* Assets.xcassets */,
 				2D28A0411C52DC690056B27E /* LaunchScreen.storyboard */,
@@ -137,6 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D28A03B1C52DC690056B27E /* ViewController.swift in Sources */,
+				2D28A04D1C52E0170056B27E /* SwiftDate.swift in Sources */,
+				2D28A04F1C52E0310056B27E /* SKSortFilterViewController.swift in Sources */,
+				2D28A04B1C52DFF50056B27E /* SKSortingControllers.swift in Sources */,
 				2D28A0391C52DC690056B27E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
