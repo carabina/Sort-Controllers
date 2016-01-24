@@ -16,7 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        print("hello github!")
+        
+        //
+        self.window?.tintColor = UIColor(red: 0.9059, green: 0.298, blue: 0.2353, alpha: 1.0)
+        
         return true
     }
 

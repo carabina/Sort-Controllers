@@ -20,7 +20,7 @@ protocol SKSSortViewControllerDelegate: NSObjectProtocol {
 
 class SKSSortViewController: UITableViewController {
     
-    var sortControllers: [SKSSortController]!
+    var sortControllers: [SKSSortController]! = []
     
     var selectedSortController: SKSSortController?
     
@@ -30,6 +30,7 @@ class SKSSortViewController: UITableViewController {
     
     init(sortController: SKSSortController){
         self.selectedSortController = sortController
+        
         super.init(style: .Grouped)
     }
 
@@ -40,7 +41,7 @@ class SKSSortViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.sortControllers = [SKSDateSortController(), SKSAlphabeticSortController(), SKSGroupsSortController(), SKSNoneSortController()]
+        
         
         for disabledIndex in self.disabledSortControllersIndexes {
             self.sortControllers.removeAtIndex(disabledIndex)
@@ -110,10 +111,6 @@ class SKSSortViewController: UITableViewController {
             
             let sortController = self.sortControllers[indexPath.row]
             cell!.textLabel?.text = sortController.name
-            if let iconName = sortController.iconName {
-                cell!.imageView?.image = UIImage(named: iconName)
-            }
-            
             cell!.accessoryType = .None
             
             if sortController.name == self.selectedSortController?.name {
@@ -165,7 +162,7 @@ class SKSSortViewController: UITableViewController {
             self.tableView.reloadData()
         } else if indexPath.section == 2 {
             /* */
-            self.selectedSortController?.selectedOption = selectedSortController!.options?[indexPath.row]
+            selectedSortController?.selectedOption = selectedSortController!.options?[indexPath.row]
             
             let optionsVC = SKOptionsTableViewController(style: .Grouped)
             optionsVC.option = selectedSortController!.options?[indexPath.row]
