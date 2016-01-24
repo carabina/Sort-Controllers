@@ -2,7 +2,7 @@
 A library for sorting custom objects into sections, good for UITableView and UICollectionView. Written in Swift.
 
 <p align="center">
-  <img src="" alt="screenshot" width="473.6" height="198">
+  <img src="https://github.com/Hussein75/Sort-Controllers/blob/master/Screenshot.png" alt="screenshot" width="375" height="667">
 </p>
 
 # Installation
