@@ -76,7 +76,7 @@ class SKSCustomTableViewController: UITableViewController {
         vc.delegate = self
         
         //prepare what types of sorts we want to include
-        vc.sortControllers = [SKSDateSortController(), SKSAlphabeticSortController(), SKSStringSortController(), SKSNoneSortController()]
+        vc.sortControllers = [SKSDateSortController(), SKSAlphabeticSortController(), SKSGroupSortController(), SKSNoneSortController()]
         
         let navigationController = UINavigationController(rootViewController: vc)
         self.presentViewController(navigationController, animated: true, completion: nil)

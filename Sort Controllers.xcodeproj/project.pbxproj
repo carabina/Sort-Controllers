@@ -15,8 +15,9 @@
 		2D28A04B1C52DFF50056B27E /* SKSortingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28A04A1C52DFF50056B27E /* SKSortingController.swift */; };
 		2D28A04D1C52E0170056B27E /* SwiftDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28A04C1C52E0170056B27E /* SwiftDate.swift */; };
 		2D28A04F1C52E0310056B27E /* SKSSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28A04E1C52E0310056B27E /* SKSSortViewController.swift */; };
+		2D2E4E691C5663F50041C774 /* SKSGroupSortController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2E4E681C5663F50041C774 /* SKSGroupSortController.swift */; };
 		2DA842C21C543B3000136313 /* SKSDateSortControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA842C11C543B3000136313 /* SKSDateSortControllers.swift */; };
-		2DA842C41C543B3D00136313 /* SKSStringSortControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA842C31C543B3D00136313 /* SKSStringSortControllers.swift */; };
+		2DA842C41C543B3D00136313 /* SKSAlphabeticSortController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA842C31C543B3D00136313 /* SKSAlphabeticSortController.swift */; };
 		2DA842C61C543B5800136313 /* SKSNoneSortController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA842C51C543B5800136313 /* SKSNoneSortController.swift */; };
 		2DA842C91C54474600136313 /* SKSCustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA842C81C54474600136313 /* SKSCustomTableViewController.swift */; };
 		2DA842CB1C54492C00136313 /* SKSCustomObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA842CA1C54492C00136313 /* SKSCustomObject.swift */; };
@@ -33,8 +34,9 @@
 		2D28A04A1C52DFF50056B27E /* SKSortingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSortingController.swift; sourceTree = "<group>"; };
 		2D28A04C1C52E0170056B27E /* SwiftDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftDate.swift; sourceTree = "<group>"; };
 		2D28A04E1C52E0310056B27E /* SKSSortViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSSortViewController.swift; sourceTree = "<group>"; };
+		2D2E4E681C5663F50041C774 /* SKSGroupSortController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSGroupSortController.swift; sourceTree = "<group>"; };
 		2DA842C11C543B3000136313 /* SKSDateSortControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSDateSortControllers.swift; sourceTree = "<group>"; };
-		2DA842C31C543B3D00136313 /* SKSStringSortControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSStringSortControllers.swift; sourceTree = "<group>"; };
+		2DA842C31C543B3D00136313 /* SKSAlphabeticSortController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSAlphabeticSortController.swift; sourceTree = "<group>"; };
 		2DA842C51C543B5800136313 /* SKSNoneSortController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSNoneSortController.swift; sourceTree = "<group>"; };
 		2DA842C81C54474600136313 /* SKSCustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSCustomTableViewController.swift; sourceTree = "<group>"; };
 		2DA842CA1C54492C00136313 /* SKSCustomObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSCustomObject.swift; sourceTree = "<group>"; };
@@ -89,7 +91,8 @@
 				2D28A04C1C52E0170056B27E /* SwiftDate.swift */,
 				2D28A04A1C52DFF50056B27E /* SKSortingController.swift */,
 				2DA842C11C543B3000136313 /* SKSDateSortControllers.swift */,
-				2DA842C31C543B3D00136313 /* SKSStringSortControllers.swift */,
+				2DA842C31C543B3D00136313 /* SKSAlphabeticSortController.swift */,
+				2D2E4E681C5663F50041C774 /* SKSGroupSortController.swift */,
 				2DA842C51C543B5800136313 /* SKSNoneSortController.swift */,
 				2D28A04E1C52E0310056B27E /* SKSSortViewController.swift */,
 			);
@@ -171,9 +174,10 @@
 				2D28A03B1C52DC690056B27E /* SKSViewController.swift in Sources */,
 				2DA842C91C54474600136313 /* SKSCustomTableViewController.swift in Sources */,
 				2DA842C21C543B3000136313 /* SKSDateSortControllers.swift in Sources */,
+				2D2E4E691C5663F50041C774 /* SKSGroupSortController.swift in Sources */,
 				2D28A04D1C52E0170056B27E /* SwiftDate.swift in Sources */,
 				2DA842C61C543B5800136313 /* SKSNoneSortController.swift in Sources */,
-				2DA842C41C543B3D00136313 /* SKSStringSortControllers.swift in Sources */,
+				2DA842C41C543B3D00136313 /* SKSAlphabeticSortController.swift in Sources */,
 				2D28A04F1C52E0310056B27E /* SKSSortViewController.swift in Sources */,
 				2D28A04B1C52DFF50056B27E /* SKSortingController.swift in Sources */,
 				2D28A0391C52DC690056B27E /* AppDelegate.swift in Sources */,
