@@ -33,11 +33,25 @@ That's it! these sections are available to use on any UITableView or UICollectio
 objectAtIndexPath:inSections:
 ```
 
+# Types of sort
+
+* Date Sort: ``` SKSDateSortController ```
+* Group Sort: ```SKSGroupSortController ```
+* Alphabetic Sort: ```SKSAlphabeticSortController ```
+* More Coming soon...
+
 # Confuse ?
 
 I'm not good at English, so, you can try the demo application.. ( I think you're going to understand everything )..
 
 **It's still in tests, if you have any questions or notes, feel free to tell me.. **
+
+#TODO's:
+
+* More generic..
+* Supporting numbers sorts..
+* Tags Sort..
+* Improves..
 
 # License
 Copyright (c) 2016 Hussein Ryalat
