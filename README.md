@@ -2,7 +2,7 @@
 A library for sorting custom objects into sections, good for UITableView and UICollectionView. Written in Swift.
 
 <p align="center">
-  <img src="" alt="screenshot" width="473.6" height="198">
+  <img src="https://github.com/Hussein75/Sort-Controllers/blob/master/Screenshot.png" alt="screenshot" width="375" height="667">
 </p>
 
 # Installation
@@ -33,11 +33,25 @@ That's it! these sections are available to use on any UITableView or UICollectio
 objectAtIndexPath:inSections:
 ```
 
+# Types of sort
+
+* Date Sort: ``` SKSDateSortController ```
+* Group Sort: ```SKSGroupSortController ```
+* Alphabetic Sort: ```SKSAlphabeticSortController ```
+* More Coming soon...
+
 # Confuse ?
 
 I'm not good at English, so, you can try the demo application.. ( I think you're going to understand everything )..
 
 **It's still in tests, if you have any questions or notes, feel free to tell me.. **
+
+#TODO's:
+
+* More generic..
+* Supporting numbers sorts..
+* Tags Sort..
+* Improves..
 
 # License
 Copyright (c) 2016 Hussein Ryalat
